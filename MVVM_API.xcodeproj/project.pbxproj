@@ -21,6 +21,7 @@
 		D421124329F035A90013943B /* Networkable_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421124229F035A90013943B /* Networkable_Protocol.swift */; };
 		D421124729F037670013943B /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421124629F037670013943B /* TableViewModel.swift */; };
 		D421124929F049CB0013943B /* ProductsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421124829F049CA0013943B /* ProductsTVC.swift */; };
+		D421124B29F146490013943B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421124A29F146490013943B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D421124229F035A90013943B /* Networkable_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable_Protocol.swift; sourceTree = "<group>"; };
 		D421124629F037670013943B /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		D421124829F049CA0013943B /* ProductsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTVC.swift; sourceTree = "<group>"; };
+		D421124A29F146490013943B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		D421124429F037100013943B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D421124A29F146490013943B /* DetailsViewController.swift */,
 				D421121029F031DF0013943B /* ViewController.swift */,
 				D421124829F049CA0013943B /* ProductsTVC.swift */,
 			);
@@ -307,6 +310,7 @@
 			files = (
 				D421121129F031DF0013943B /* ViewController.swift in Sources */,
 				D421124729F037670013943B /* TableViewModel.swift in Sources */,
+				D421124B29F146490013943B /* DetailsViewController.swift in Sources */,
 				D421123E29F0335E0013943B /* Products.swift in Sources */,
 				D421124129F035630013943B /* NetworkManager.swift in Sources */,
 				D421120D29F031DF0013943B /* AppDelegate.swift in Sources */,

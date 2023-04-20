@@ -12,9 +12,13 @@ class ProductsTVC: UITableViewCell {
     @IBOutlet weak var productsView: UIView!
     
     
-    @IBOutlet weak var productsLbl: UILabel!
+    @IBOutlet weak var productsTitleLbl: UILabel!
     
-
+    @IBOutlet weak var productsPriceLbl: UILabel!
+    
+    @IBOutlet weak var imgProductsThumbnail: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
